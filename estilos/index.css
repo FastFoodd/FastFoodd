@@ -1,0 +1,55 @@
+body{
+   background: darkgreen;
+}
+#usuario,#contra{
+    background: transparent;
+    border-bottom-color: white;
+    border-bottom-width: 5px;
+    border-top-color: transparent;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 20%;
+    transition: all .2s;
+    color: white;
+}
+#login{
+    outline: 4px dashed transparent;
+    color: white;
+    width: 40%;
+    margin: 22% auto;
+    transition: all 1s;
+}
+#title{
+    font-family: sans-serif;
+    margin-left: 15%;
+}
+#user,#pass{
+    
+   font-size: 1em;
+   font-family: sans-serif;
+   margin-left: 15%;
+}
+#iniciar{
+    font-style: initial;
+    background: green; 
+    margin-left: 35%;
+    transition: 0.5s ease;
+}
+#reg{
+    margin-left: 0%;
+    transition: 0.5s ease;
+}
+#regi{
+    color: white;
+    transition: 0.5s ease;
+}
+#login:hover{
+    outline-color: white;
+    width: 55%;
+}
+#reg:hover{
+    font-size: 1.2em;
+}
+#iniciar:hover{
+    font-size: 1.2em;
+}
