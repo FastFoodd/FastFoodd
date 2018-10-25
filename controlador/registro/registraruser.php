@@ -17,11 +17,11 @@ class registraruser{
         $statement->bindParam(':contra',$contra);
         $statement->bindParam(':email',$email);
         if(!$statement){
-            header('Location: http://fastfood.ittlaxiacosistemas.com/fastfood/');
+            header('Location: index.php');
         }
         else{
             $statement->execute();
-            header('Location: http://fastfood.ittlaxiacosistemas.com/fastfood/');
+            header('Location: index.php');
         }
         
     }
