@@ -3,7 +3,7 @@
    // Conexion a la base de datos mediante PDO 
      public static function get_conection(){
         //variables para la conexion
-        $user="ittlaxia_ffood"; $pass="FastFood23**"; $host="localhost"; $dbname="ittlaxia_login";
+        $user="root"; $pass=""; $host="localhost"; $dbname="fastfood";
         //Se intenta conectar con los datos asignados
         try{
             //se crea la instancia PDO con sus parametros de conexion
