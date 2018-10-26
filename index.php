@@ -10,10 +10,13 @@ require 'vista/registro/registro.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez|Pathway+Gothic+One" rel="stylesheet">
+    <title>GPDS</title>
 </head>
-<body>
+<!--<body>
     <div class="container">
+
     <div id="login">
     <h1 id="title">Inicio de Sesión</h1><br>
     <form action="modelo/validarlogin/validar.php" method="POST">
@@ -33,7 +36,32 @@ require 'vista/registro/registro.php';
     </form>
 </div>
     </div>
-</body>
+</body> -->
+<body>
+    <div class="contenedor">
+
+      <header>
+        <h1 class="title">FastFood</h1>
+        <footer id="reg"><a href="" data-toggle="modal" data-target="#registro" id="regi">
+        <a href="">Registrate..</a>
+        </footer>
+      </header>
+      <div class="login">
+      <form action="modelo/validarlogin/validar.php" method="POST">
+        <div class="fondo">
+          <img src="img/usuario.png" alt="User">
+          <h3>Inicio de Sesión</h3>
+          <form class="" action="index.html" method="post">
+            <span class="icon-user"></span><input class="inp" type="text" name="usuario" id="usuario" required ><br>
+            <span class="icon-key"></span><input class="inp" type="password" name="contra" id="contra" required><br>
+            <a href="" class="he">¿Haz Olvidado Tú Contraseña?</a>
+            <input class="boton" type="submit" name="inicio" value="Iniciar Sesión" id="iniciar">
+          </form>
+        </div>
+        </form>
+      </div>
+    </div>
+  </body>
 <script src="js/jquery.min.js"></script>
 <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">
 </html>
