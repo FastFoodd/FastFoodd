@@ -14,7 +14,7 @@ require 'vista/registro/registro.php';
 </head>
 <body>
     <div class="container">
-   <div id="login">
+    <div id="login">
     <h2 id="title">Inicio de Sesión: Datos incorrectos</h2>
     <form action="modelo/validarlogin/validar.php" method="POST">
     <div class="formgroup">
@@ -32,31 +32,7 @@ require 'vista/registro/registro.php';
     </div>
     </form>
 </div>
-</body>
-<link rel="stylesheet" href="fonts.css">
-
-<title>FastFood</title>
-</head>
-
-<body>
-<div class="container">
-
-<div id="login">
-    <h1 id="title">Inicio de Sesión: Datos Incorrectos</h1><br>
-<form action="modelo/validarlogin/validar.php" method="POST">
-
-<article class="fondo">
-        <span class="icon-user"></span><input type="text" class="form-control" name="usuario" id="usuario"
-placeholder="Nombre de Usuario" autofocus required ><br>
-        <span class="icon-key"></span><input type="password" class="form-control" name="contra" 
-id="contra" placeholder="Ingresar Contraseña" required ><br>
-        <a href="" class="he">He olvidado mi contraseña</a>
-        <input class="boton" type="submit" name="inicio" id="iniciar" value="Iniciar Sesion">
-        </article>
-      </form>
-  </div>
-
-</div> 
+    </div>
 </body>
 <script src="js/jquery.min.js"></script>
 <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">
