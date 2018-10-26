@@ -6,7 +6,7 @@ include ("vista/registro/registro.php");
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Fastfood</title>
+    <title>FastFood</title>
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/fonts.css">
       </head>
