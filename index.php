@@ -12,7 +12,7 @@ include ("vista/registro/registro.php");
       </head>
   <body>
       <header>
-        <h1 class="title">FastFood</h1>
+        <h1 class="title">FastFood!</h1>
         <a data-toggle="modal" href="#registro">Registrate..</a>
       </header>
       <div class="login">
