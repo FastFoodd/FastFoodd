@@ -1,36 +1,3 @@
-body{
-    background: darkgreen; 
-}
-#usuario,#contra{
-    border-color: red;
-    border-width: 1.8px;
-    width: 50%;
-    border-radius: 10px;
-    margin-left: 20%;
-    transition: all .2s;
-}
-#login{
-    outline: 4px dashed transparent;
-    color: white;
-    width: 50%;
-    margin: 22% auto;
-    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 10s;
-    transition: all 1s;
-}
-#title{
-    font-family: sans-serif;
-    margin-left: 7%;
-}
-#user,#pass{
-   font-size: 1em;
-   font-family: sans-serif;
-   margin-left: 15%;
-}
-#iniciar{
-    background: green; 
-    margin-left: 35%;
-    transition: 0.5s ease;
-}
 #reg{
     margin-left: 0%;
     transition: 0.5s ease;
@@ -39,14 +6,7 @@ body{
     color: white;
     transition: 0.5s ease;
 }
-#login:hover{
-    outline-color: red;
-   width: 55%;
-}
 #reg:hover{
-    font-size: 1.2em;
-}
-#iniciar:hover{
     font-size: 1.2em;
 }
 
