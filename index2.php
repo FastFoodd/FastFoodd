@@ -14,7 +14,7 @@ require 'vista/registro/registro.php';
 </head>
 <body>
     <div class="container">
-    <div id="login">
+   <div id="login">
     <h2 id="title">Inicio de Sesión: Datos incorrectos</h2>
     <form action="modelo/validarlogin/validar.php" method="POST">
     <div class="formgroup">
@@ -32,7 +32,6 @@ require 'vista/registro/registro.php';
     </div>
     </form>
 </div>
-    </div>
 </body>
 <script src="js/jquery.min.js"></script>
 <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">

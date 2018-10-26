@@ -12,8 +12,9 @@ require 'vista/registro/registro.php';
     <link rel="stylesheet" href="estilos/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
+   <div class="container">
     <div id="login">
     <h1 id="title">Inicio de Sesión</h1><br>
     <form action="modelo/validarlogin/validar.php" method="POST">
@@ -32,8 +33,8 @@ require 'vista/registro/registro.php';
     </div>
     </form>
 </div>
-    </div>
-</body>
+    </div> 
+    
 <script src="js/jquery.min.js"></script>
 <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">
 </html>
